@@ -1,0 +1,15 @@
+{
+  "name": "incentive-workflow-marketplace",
+  "description": "Skills de fluxo de trabalho de desenvolvimento da incentive-me: GitHub Projects, PRs e relatórios.",
+  "owner": {
+    "name": "Mateus Bispo",
+    "email": "mateus.bispo@incentive.me"
+  },
+  "plugins": [
+    {
+      "name": "incentive-workflow",
+      "source": "./",
+      "description": "Fluxo de trabalho de desenvolvimento na incentive-me com GitHub Projects."
+    }
+  ]
+}
