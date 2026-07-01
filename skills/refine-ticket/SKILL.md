@@ -154,6 +154,8 @@ Campo Phase:   PVTSSF_lADOA9blt84BDMn8zg1Xldw
 
 5. **Reportar** — confirme o link do comentário, o novo Phase e que o arquivo local foi removido.
 
+6. **Encadear na spec** — o refinamento fecha o escopo; o contrato técnico fica na skill `spec`. Ofereça continuar imediatamente: "Seguir para a `/spec <n>`? A entrevista técnica aproveita o contexto que acabamos de levantar." Com aprovação, invoque a skill `spec` passando o número da issue — sem repetir perguntas já respondidas no refinamento.
+
 ## Regras de redação do checklist
 
 - **Objetivo, não prescritivo.** Diga *o que* precisa existir/mudar, não *qual arquivo* editar nem *qual linha*. Exemplo bom: "Adicionar validação de CPF duplicado no fluxo de criação de beneficiário". Exemplo ruim: "Editar `BeneficiaryService.create` linha 42 para chamar `validateCpf`".
