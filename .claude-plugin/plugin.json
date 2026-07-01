@@ -1,6 +1,6 @@
 {
   "name": "incentive-workflow",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Fluxo de trabalho de desenvolvimento na incentive-me: puxar tasks do GitHub Projects, plano de desenvolvimento, mover issues, abrir PRs e relatórios diários/da sprint.",
   "author": {
     "name": "Mateus Bispo",

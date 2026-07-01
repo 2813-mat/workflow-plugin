@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/start-ui.sh\" >/dev/null 2>&1 || true"
+          }
+        ]
+      }
+    ]
+  }
+}
